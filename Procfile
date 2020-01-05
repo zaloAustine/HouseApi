@@ -1,1 +1,1 @@
-web: gunicorn Ehouses.wsgi --log-file -
+web: gunicorn housenew:app --log-file -
