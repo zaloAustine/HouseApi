@@ -1,0 +1,1 @@
+web: gunicorn Ehouses.wsgi --log-file -
