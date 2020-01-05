@@ -1,1 +1,1 @@
-web: gunicorn HouseApiMain:wsgi --log-file -
+web: gunicorn HouseApiMain.wsgi --log-file -
