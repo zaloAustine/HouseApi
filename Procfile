@@ -1,1 +1,1 @@
-web: gunicorn HousesApiMain:app --log-file -
+web: gunicorn HouseApiMain:app --log-file -
